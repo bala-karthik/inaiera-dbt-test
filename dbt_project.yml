@@ -1,0 +1,8 @@
+name: 'inaiera_dbt_test'
+version: '1.0.0'
+config-version: 2
+profile: 'inaiera'
+model-paths: ["models"]
+models:
+  inaiera_dbt_test:
+    +materialized: table
